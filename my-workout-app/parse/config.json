@@ -1,0 +1,7 @@
+{
+  "appId": "snIRKUsBNtbngjBoRbFu3d1Ufloh8cGpQYLfnzRM",
+  "masterKey": "ieIzcL7cYnDQLm0lkVsfEUluC3Jx2lXKsfT8zlnb",
+  "appName": "wh40kworkoutapp",
+  "cloud": "./cloud/main",
+  "databaseURI": "http://localhost:5984"
+}
