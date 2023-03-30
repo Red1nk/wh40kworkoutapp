@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imperial Fitness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Workouts</a></li>
+        <li><a href="#">Leaderboard</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+    <div class="user-info">
+      <img src="avatar.png" alt="Avatar" class="avatar">
+      <div class="user-details">
+        <h1>John Doe</h1>
+        <p>Rank: <span class="rank">1</span></p>
+        <p>Level: <span class="level">5</span></p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 75%;"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="workout-history">
+      <h2>Workout History</h2>
+      <div class="scrollable">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Workout</th>
+              <th>Duration</th>
+              <th>Calories</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2022-01-01</td>
+              <td>Push-ups</td>
+              <td>10 min</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>2022-01-02</td>
+              <td>Squats</td>
+              <td>15 min</td>
+              <td>80</td>
+            </tr>
+            <!-- more workout history data here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2022 Imperial Fitness. All rights reserved.</p>
+  </footer>
+</body>
+</html>

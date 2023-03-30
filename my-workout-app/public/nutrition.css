@@ -1,0 +1,112 @@
+/* Nutrition Page CSS */
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  form h2 {
+    margin-top: 0;
+  }
+  
+  form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="number"] {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  form select {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  form input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .error {
+    background-color: #ffe6e6;
+    border: 1px solid #ff9999;
+    border-radius: 3px;
+    color: #ff3333;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .success {
+    background-color: #e6ffe6;
+    border: 1px solid #99ff99;
+    border-radius: 3px;
+    color: #33cc33;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }  

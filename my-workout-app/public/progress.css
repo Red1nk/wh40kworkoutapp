@@ -1,0 +1,117 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .header .user-info h4 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  /* Main Content */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .main .level-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .main .level-info h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .main .level-info p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .main .exp-bar {
+    position: relative;
+    width: 80%;
+    height: 20px;
+    background-color: #e6e6e6;
+    margin-bottom: 20px;
+  }
+  
+  .main .exp-bar .fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #ff9933;
+  }
+  
+  .main .history {
+    width: 80%;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .main .history table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .main .history th {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+  }
+  
+  .main .history td {
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    background-color: #ff9933;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #e67300;
+  }
+  
+  .btn:active {
+    background-color: #cc6600;
+  }
+  

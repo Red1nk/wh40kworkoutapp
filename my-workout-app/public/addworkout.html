@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Workout</title>
+  <link rel="stylesheet" href="add-workout.css">
+</head>
+<body>
+  <header>
+    <h1>Add Workout</h1>
+  </header>
+  <main>
+    <form>
+      <div class="form-group">
+        <label for="workout-name">Workout Name:</label>
+        <input type="text" id="workout-name" name="workout-name" required>
+      </div>
+      <div class="form-group">
+        <label for="workout-type">Workout Type:</label>
+        <select id="workout-type" name="workout-type" required>
+          <option value="">Select Workout Type</option>
+          <option value="cardio">Cardio</option>
+          <option value="strength-training">Strength Training</option>
+          <option value="yoga">Yoga</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="workout-duration">Duration:</label>
+        <input type="number" id="workout-duration" name="workout-duration" min="1" max="120" required>
+        <span class="input-suffix">Minutes</span>
+      </div>
+      <div class="form-group">
+        <label for="workout-date">Date:</label>
+        <input type="date" id="workout-date" name="workout-date" required>
+      </div>
+      <div class="form-group">
+        <label for="workout-notes">Notes:</label>
+        <textarea id="workout-notes" name="workout-notes"></textarea>
+      </div>
+      <button type="submit">Add Workout</button>
+    </form>
+  </main>
+</body>
+</html>
